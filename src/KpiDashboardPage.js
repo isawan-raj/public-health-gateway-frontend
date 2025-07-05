@@ -3,7 +3,8 @@ import React, { useState, useEffect } from 'react';
 
 // IMPORTANT: Set this to the URL of your Node.js backend API
 // It should now point to your merged backend's base URL
-const API_BASE_URL = 'http://localhost:5000'; // Ensure this matches your Node.js server port
+// const API_BASE_URL = 'http://localhost:5000'; // Ensure this matches your Node.js server port
+const API_BASE_URL = 'https://phg-api.onrender.com';
 
 function KpiDashboardPage() { // Renamed from App to KpiDashboardPage
     // State for user selections

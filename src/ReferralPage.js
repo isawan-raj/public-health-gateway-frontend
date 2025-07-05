@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 // Define your backend API base URL
 // Make sure this matches where your Node.js API is running
-const API_BASE_URL = 'http://localhost:5000';
-// const API_BASE_URL = 'https://healthcare-referral-navigator.onrender.com'
+// const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://phg-api.onrender.com';
 
 // Facility hierarchy definition (kept in frontend for UI/logic presentation)
 const facilityHierarchy = {
