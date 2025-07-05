@@ -50,7 +50,7 @@ function HomeContent() {
         <div className="flex flex-col items-center justify-center min-h-[calc(100vh-120px)] text-center">
             <h2 className="text-5xl font-extrabold text-gray-800 mb-6">Welcome to Public Health Gateway!</h2> {/* Changed Name */}
             <p className="text-xl text-gray-600 mb-8 max-w-2xl">
-                Navigate through the Healthcare Referral System or explore the Health KPI Dashboard using the links above.
+                Navigate through the Healthcare Referral System or explore the Health KPI Dashboard using the links below.
             </p>
             <div className="flex space-x-4">
                 <Link to="/referral" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
